@@ -1,0 +1,79 @@
+
+	 <script type="text/template" id="albums-item-template">
+		<div class='blockWithBottomBorder'>
+			<div album-id='<%= id %>' class='link clickable'>
+				<div class='withPaddings'>
+					<img class='albPreview' src='<%= url %>'/>
+					<div>
+						<div class='albTitle'><%= title %></div>
+						<div>
+							<div class='albInfo'>
+								<i class="fa fa-square"></i>
+								<%= numphotos %>
+							</div>
+						</div>
+						<div>
+							<div class='albInfo'>
+								<i class="fa fa-clock-o"></i>
+								<%= time %>								
+								ago
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>	 
+	 <script type="text/template" id="inner-layout-template">
+		<div class="blockWithBottomBorder">
+			<div class='withPaddings'>
+				<% if (pageType != "albumsList") { %>
+					<i id='back-link' class="clickable fa fa-chevron-left"></i>			
+				<% } %>
+				<% if (pageType == "photosList") { %>
+					<i class="fa fa-folder"></i>				
+				<% } %>
+				<span class='cheeringMessage' ><%= text %></span>
+			</div>
+		</div>
+	</script>	 
+	 <script type="text/template" id="photos-item-template">
+		<div>
+			<div title="<%= tooltipHtml %>">
+				<div style="background: url('<%= url %>')" class='circledImg'></div>
+				<div class="tileHeader">	
+					<i class="fa fa-check"></i>
+					<span photo-id='<%= id %>' class='link clickable'>Select</span>
+				</div>
+			</div>
+		</div>
+	</script>
+	 <script type="text/template" id="photo-template">
+		<div>	
+			<img class='' src=" <%= url %> "/>
+		</div>
+		<table>
+			<%= html %>
+			<tr>	
+				<td valign='top' align='left' class='leftside'>Keywords:</td>
+				<td valign='top' align='left'>	
+					<%
+						for(var i = 0; i< keywords.length; i++)
+						{
+					%>
+						<div class='keyword'><%= keywords[i] %> </div>
+					<% } %>
+				</td>
+			</tr>
+		</table>
+	</script>
+	 <script type="text/template" id="tooltip-item-template">
+		<tr>	
+			<td valign='top' align='left' class='leftside'><div class='leftside'>File name:</div></td>
+			<td class='wideTd' valign='top' align='left'><%= title %> </td>
+		</tr>
+		<tr>	
+			<td valign='top' align='left' class='leftside'>Caption:</td>
+			<td valign='top' align='left'><%= description %> </td>
+		</tr>
+	</script>

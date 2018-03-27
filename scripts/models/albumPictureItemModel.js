@@ -1,0 +1,1 @@
+define(["backbone"],function(e){var t=e.Model.extend({defaults:function(){return{title:"",updated:"",numphotos:0,id:"",url:""}}});return t});

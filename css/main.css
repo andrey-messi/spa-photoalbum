@@ -1,0 +1,188 @@
+
+		 #watch div#contentBlock>div>div
+		 {
+			padding:11px 7px 7px 7px;
+		 }
+		 #photoDiv>div
+		 {
+			text-align: center;
+		 }
+		 div#photoDiv>table
+		 {
+			margin-top: 5px;
+		 }
+		#watch div#contentBlock>div>ul
+		{
+			padding:0;
+			margin:0;
+		}
+		#watch div#contentBlock>div>ul>li
+		{
+			 list-style-type: none;
+		}
+		#tabs ul.ui-widget-header 
+		{
+			background: none;
+			border: none;
+			border-bottom: 1px solid rgb(221, 221, 221);
+		}
+		#tabs ul.ui-corner-all
+		{
+			border-bottom-right-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+		#tabs
+		{
+			border-top-right-radius: 0;
+			border-top-left-radius: 0;
+		}
+		.item>div{
+			border-radius: 6px;
+			border: #d5d5d5 solid 1px;
+			height:129px;
+			width:107px;
+		}
+		.item>div>div, .item>div>div>div.tileHeader{
+			border-radius: 0 0 6px 6px;
+		}
+		.item{
+			position:absolute;
+		}
+		.item>div>div>div.circledImg
+		{
+			border-radius: 6px 6px 0 0;
+			width:105px;
+			height:105px;
+		}
+		#photosInAlbum{
+			width: 100%;
+			position:relative;
+			//padding:11px 27px 7px 7px;
+			padding-right: 20px;
+		}
+		.blockWithBottomBorder{
+			border-bottom: #d5d5d5 solid 1px;
+		}
+		.withPaddings
+		{
+			padding:10px;
+		}
+		.clickable>.withPaddings>div>div>img
+		{
+			float:left;
+			padding-top: 6px;
+		}
+		#tabs .ui-tabs-panel
+		{
+			padding:0;
+			background-color: none;
+		}
+		.clickable
+		{
+			cursor: pointer;
+		}
+		.link, .item>div>div>div.tileHeader
+		{
+			background-color: #F5F5F5;
+			color: #0095b6;
+		}
+		span.link
+		{
+			text-decoration: underline;
+			font-size: 13px;
+		}
+		.link:hover
+		{
+			background-color: #eee;
+		}
+		.albInfo
+		{
+			color:#99958c;
+			font-size: 12px;
+		}
+		.albInfo, .albTitle
+		{
+			padding:1px;
+		}
+		.albTitle
+		{
+		//	color: #0095b6;
+			font-size: 18px;
+			font-weight:bold;
+		}
+		#tabs.ui-widget-content
+		{
+			background: none;
+		}
+		.side
+		{
+		//	float:left;
+		}
+		.leftside
+		{
+			width: 90px;
+			font-weight:bold;
+		}
+		.rightside
+		{
+		//	margin-left: 120px;
+		}
+		.tooltip-inner
+		{
+		//	min-width: 300px;
+		}
+		#searchHolder span
+		{
+			width: 300px;
+		}
+		#authorize-button
+		{
+			margin: 10px 0 0 10px;
+		}
+		.tileHeader i
+		{
+			margin-left:3px;
+			background-color: #F5F5F5;
+		}
+		.withPaddings>div
+		{
+			line-height: 18px;
+		}
+		#unauthorized, #authorized
+		{
+			display: none;
+		}
+		.albPreview
+		{
+			float: left;
+			padding-left: 30px;
+			padding-right:10px;
+		}
+		.cheeringMessage
+		{
+			color: gray;
+		}
+		.keyword
+		{
+			background-color: #0095b6;
+			color:white;
+			float:left;
+			margin-right:5px;
+			border-radius:5px;
+		}
+		.wideTd
+		{
+			//min-width:200px;
+		}
+		.tooltip-inner
+		{
+			max-width: 500px;
+		}
+		#noRes
+		{
+			text-align: center;
+		}
+		.contentBlockPart
+		{
+			display:none;
+		}

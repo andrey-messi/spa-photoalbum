@@ -1,0 +1,1 @@
+define(function(){var e=["albumsList","photosList","photo"];return e});

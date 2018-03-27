@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone","views/innerLayoutView","views/contentView","models/innerLayoutModelInstance"],function(e,t,n,r,i,s){var o=function(){var e=new r({model:s}),t=new i({model:s})};return{initialize:o}});

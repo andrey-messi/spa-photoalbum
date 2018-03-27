@@ -1,0 +1,1 @@
+define(function(){var e="Welcome, ";return{set:function(t){e=t},get:function(){return e}}});
